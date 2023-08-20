@@ -434,9 +434,9 @@ body {
   margin-bottom: 2rem;
 }
 
-/* Services
+/* interests
 --------------------------------------------------------------*/
-.service__card {
+.interest__card {
   background-color: var(--color-bg-secondary);
   box-shadow: var(--box-shadow);
   padding: 5rem 3.5rem;
@@ -446,21 +446,21 @@ body {
   transition: var(--transition);
 }
 
-.service__card:hover {
+.interest__card:hover {
   background-color: var(--color-primary);
 }
 
-.service__card:hover .service__link {
+.interest__card:hover .interest__link {
   color: var(--color-white);
 }
 
-.service__icon {
+.interest__icon {
   font-size: 3.5rem;
   color: var(--color-white);
   margin-bottom: 1.5rem;
 }
 
-.service__title {
+.interest__title {
   font-size: var(--fs-lg);
   margin-bottom: 3rem;
 }
@@ -648,7 +648,7 @@ body {
 
 /* Medium devices*/
 @media screen and (min-width: 560px) {
-  .service__wrapper {
+  .interest__wrapper {
     grid-template-columns: repeat(2, 250px);
     justify-content: center;
   }
@@ -719,7 +719,7 @@ body {
   }
 
   .qualification__content,
-  .service__wrapper,
+  .interest__wrapper,
   .project__wrapper {
     grid-template-columns: repeat(3, 1fr);
   }
